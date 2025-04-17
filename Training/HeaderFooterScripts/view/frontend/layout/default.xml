@@ -6,5 +6,15 @@
                    template="Training_HeaderFooterScripts::head_additional/default.phtml"
                    class="Magento\Framework\View\Element\Template" />
         </referenceBlock>
+        <referenceBlock name="after.body.start">
+            <block name="after_body_start_default_script"
+                   template="Training_HeaderFooterScripts::body_start/default_script.phtml"
+                   class="Magento\Framework\View\Element\Template" />
+        </referenceBlock>
+        <referenceBlock name="before.body.end">
+            <block name="before_body_end_default_script"
+                   template="Training_HeaderFooterScripts::body_end/default_script.phtml"
+                   class="Magento\Framework\View\Element\Template" />
+        </referenceBlock>
     </body>
 </page>
